@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    color: rgb(140, 196, 223);
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #121212;
+    color: rgb(140, 196, 223);
+}
+.container{
+    color: rgb(140, 196, 223);
+}
+.bg{
+    background-color: #171717;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.text-box-bg{
+    background-color: #272727;
+}
+label {
+    color: rgb(140, 196, 223);
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-top: 20px;
+    color: rgb(140, 196, 223);
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+Table{
+    margin: 20px;
+}
+tbody{
+    margin-top: 10px;
+}
+tr{
+    margin-left: 10px;
+}
+.headTextEventList{
+    margin-top: 20px;
+    border: 2px solid;
+}
+.headTextEventList h1{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.addEventBtn{
+    margin: 20px;
+    border: 2px solid;
+}
+.addEventBtn a{
+    margin: 10px;
+}
+.btn-border{
+    border: rgb(140, 196, 223) 1px solid;
+}
+.btn-dark{
+    background: #272727;
+}
+.card-margin{
+    margin-top: 10px;
+}
